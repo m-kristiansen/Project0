@@ -5,7 +5,7 @@ import pytest
 
 def test_add_exercise_1():
     x = 1
-    y = 1
+    y = 2
     computed = add(x,y)
     expected = 3
     assert computed == expected, 'Addition of integers doesnt work'
